@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "datev_export"
+version = "0.1.0"
+description = ""
+authors = ["Vinzent Rudolf <v.rudolf@vfr-grossbottwar.de>"]
+
+[tool.poetry.dependencies]
+python = "3.8"
+mysql-connector = "2.*"
+black = "^22.1.0"
+pandas = "1.*"
+
+[tool.black]
+line-length = 125
